@@ -39,7 +39,7 @@ button.addEventListener('click', () => {
         correctAnswers++;
     }
 
-    alert(`Quiz complet. Check the page for results`);
+    alert(`Quiz complete. Check the page for results`);
 
-    results.textContent = `Okay ${userName}, you got ${correctAnswers} correct out of 3.`;
+    results.textContent = `Okay ${userName}, you got ${correctAnswers} correct out of 3!`;
 });
